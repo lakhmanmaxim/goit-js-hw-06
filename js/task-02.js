@@ -29,4 +29,5 @@ const addItemsToListIngredients = (ingredients) => {
 };
 
 const elements = addItemsToListIngredients(ingredients);
+
 ingredientsListEl.append(...elements);
