@@ -20,4 +20,5 @@ function onBodyChangeColor(e) {
   spanColorText.textContent = getRandomHexColor();
 
   body.style.backgroundColor = getRandomHexColor();
+  console.log(getRandomHexColor());
 }
